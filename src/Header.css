@@ -1,0 +1,19 @@
+.wrapper {
+    width: 960px;
+}
+.logo-wrapper {
+    margin: 0 auto;
+    width: 300px;
+}
+.logo-image {
+    width: 'inherit';
+    height: 'auto';
+}
+
+.header-title {
+    width: 50%;
+    margin: -10px auto 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
