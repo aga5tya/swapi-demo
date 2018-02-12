@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div>
-       <Header />
+       <Header title={'(Movie and Films trivia)'} />
        <div>
          <Cards/>
        </div>

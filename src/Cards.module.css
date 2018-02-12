@@ -9,5 +9,40 @@
     width: 300px;
     height: auto;
     border: 1px solid black;
-    padding: 20px;
+    padding: 10px 20px;
+}
+
+.titleBlock{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    .title{
+        font-weight: 700;
+        padding: 10px 0;
+        font-size: 16px;
+    }
+    .description{
+        font-size: 14px;
+    }
+    .release{
+        font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        :global {
+            & div {
+                padding: 10px;
+            }
+        }
+    }
+}
+
+.label {
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.names {
+    padding-top: 5px;
+   padding-left: 30px;
 }
